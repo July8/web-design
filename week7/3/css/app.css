@@ -1,3 +1,52 @@
 * {
   box-sizing: border-box;
 }
+.main {
+  height: 700px;
+  width: 500px;
+  position: relative;
+  background: rgb(196, 231, 154);
+}
+.navbar {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  height: 35px;
+  width: 150px;
+  background: rgb(71, 116, 19);
+  margin-top: 30px;
+}
+.menu{
+display: flex;
+padding-right: 20px;
+margin-top: 30px;
+}
+.menu-item:last-child{
+  margin-right: 0;
+}
+.menu-item{
+  height: 15px;
+  width: 40px;
+  background: rgb(107, 154, 51);
+  margin-right: 20px;
+}
+.intro{
+  height: 250px;
+  width: 460px;
+  background: rgb(41, 77, 0);
+  margin-top: 20px;
+ margin-left: 20px;
+}
+.secondary{
+  display: flex;
+}
+.secondary-item{
+  height: 100px;
+  width: 200px;
+  background: rgb(41, 77, 0);
+  margin-left: 20px;
+  margin-top: 20px;
+}
