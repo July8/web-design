@@ -1,3 +1,39 @@
 * {
   box-sizing: border-box;
 }
+.intro{
+  height: 350px;
+width: 600px;
+position: relative;
+background: rgb(196, 231, 154);
+padding-left: 30px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.header {
+  height: 30px;
+  width: 200px;
+  background: rgb(41, 77, 0);
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.paragraph {
+  height: 50px;
+  width: 400px;
+  background: rgb(148, 193, 96);
+}
+.items{
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+.item:last-child{
+  margin-right: 0;
+}
+.item{
+  background: rgb(41, 77, 0);
+  width: 100px;
+  height: 100px;
+  margin-right: 80px;
+}
