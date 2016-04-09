@@ -6,6 +6,13 @@
   width: 500px;
   position: relative;
   background: rgb(196, 231, 154);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main > div{
+  max-width: 1000px;
+  width: 100%;
 }
 .navbar {
   padding-left: 20px;
