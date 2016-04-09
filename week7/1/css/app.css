@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
+html,
+body {height: 100%;
+}
 .intro {
-  height: 300px;
-  width: 600px;
+  height: 100%;
   position: relative;
   background: rgb(196, 231, 154);
   display: flex;
@@ -21,4 +23,13 @@
   height: 70px;
   width: 400px;
   background: rgb(148, 193, 96);
+}
+
+@media screen and (max-width: 620px) {
+  .header{
+    width: 150px;
+  }
+.paragraph {
+  width: 250px;
+ }
 }
